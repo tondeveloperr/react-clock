@@ -1,27 +1,40 @@
-# React + TypeScript + Vite
+# React - 25 + 5 Clock
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a clock and timer application built using React, Vite, and TypeScript. It allows users to set and manage both break and session times for a Pomodoro-style timer. The application provides a visual countdown and an alarm sound when the timer reaches zero. Users can customize the timer duration for both break and session times according to their needs. It's a handy tool for maintaining productivity and taking regular breaks during work or study sessions.
 
-Currently, two official plugins are available:
+## `Demo 👇`
+https://react-25-5-clock.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
 
-## Expanding the ESLint configuration
+- React: A JavaScript library for building user interfaces.
+- Vite: A fast development build tool.
+- TypeScript: A superset of JavaScript that adds static typing.
+- CSS: Styling the user interface.
+- HTML: Structuring the app's layout.
+  
+## Local Setup:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone this repository to your computer with the command:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```
+git clone https://github.com/tondeveloperr/react-clock.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Open the terminal and navigate to the project directory with:
+
+```
+cd react-clock
+```
+
+3. Install react-clock dependencies by running:
+
+```
+npm install
+```
+8. Run the react-clock development server with:
+
+```
+npm run dev
+```
+The app will now be accessible at `http://localhost:5173`.
